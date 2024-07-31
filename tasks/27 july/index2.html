@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        box-sizing: border-box;
+      }
+      .container {
+        min-height: 730px;
+        width: 340px;
+        background-image: url(./image.png);
+        background-size: cover;
+        background-position: center center;
+        margin: 50px auto;
+      }
+      .mobile {
+        padding: 20px;
+        height: 690px;
+        width: 300px;
+        background-color: rgba(24, 125, 225, 0.032);
+        position: relative;
+        top: 20px;
+        left: 20px;
+        border-radius: 20px 20px 35px 35px;
+        backdrop-filter: blur(2px);
+      }
+      h2,
+      p,
+      span,
+      h4,
+      .para-1,
+      .para-2 {
+        color: white;
+      }
+      p {
+        margin: 15px 0px;
+      }
+      #img-1 {
+        height: 40px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        border-radius: 50%;
+      }
+      #count {
+        font-size: 50px;
+        font-weight: 700;
+      }
+      #s1 {
+        height: 180px;
+      }
+      .box-1 {
+        background-color: rgba(255, 255, 255, 0.064);
+        height: 120px;
+        width: 120px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        border: 1px solid white;
+      }
+      .box-2 {
+        background-color: rgba(255, 255, 255, 0.016);
+        height: 260px;
+        width: 120px;
+        position: absolute;
+        z-index: 10;
+        right: 20px;
+        top: 200px;
+        border: 1px solid white;
+        border-radius: 15px;
+      }
+      .box-3 {
+        background-color: rgba(255, 255, 255, 0.062);
+        height: 120px;
+        border: 1px solid white;
+        border-radius: 15px;
+        margin-bottom: 20px;
+      }
+
+      .nav {
+        background-color: rgba(255, 255, 255, 0);
+    height: 55px;
+    border-radius: 35px;
+    width: 286px;
+    position: relative;
+    right: 13px;
+    border: 1px solid white;
+    margin-bottom: 20px
+      }
+      .box-1,
+      .box-2,
+      .box-3 {
+        padding: 10px;
+      }
+      .box-3{
+        position: relative;
+      }
+      p > span {
+        font-size: 25px;
+        font-weight: 700;
+      }
+      .box-1 > p {
+        position: relative;
+        top: 15px;
+      }
+      .para-1{
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .para-2{
+        font-size: 20px;
+        font-weight: 100;
+      }
+      .box-3 > button{
+        height: 25px;
+        width: 60px;
+        border: none;
+        border-radius: 15px;
+        font-size: 18px;
+        color: blue;
+        position: relative;
+        top: 25px;
+      }
+      .box-3 > img{
+        height:80px;
+        position:absolute;
+        right: 10px;
+        bottom: 17px;
+      }
+      .nav > button{
+        height: 25px;
+        width: 50px;
+        border: none;
+        border-radius: 15px;
+     color: blue;
+     position: relative;
+     top: 20px;
+     left: 20px;
+      }
+      .nav >i{
+        background-color: white;
+    padding: 8px 10px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    color: blue;
+    position: relative;
+    top: 18px;
+    left: 18px;
+
+      }
+      .nav > div >i{
+        color: white;
+
+      }
+      .nav > div{
+        position: relative;
+        width: 100px;
+        left: 160px;
+        top: 5px;
+        font-size: 20px;
+      }
+      .nav > div > i:nth-child(2)/decedent/{
+        position:relative;
+         left: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="mobile">
+        <div id="s1">
+          <h2>Good Day</h2>
+          <h2>Mark!</h2>
+          <img id="img-1" src="./selfpic.png" alt="" />
+          <p>Steps</p>
+          <span id="count">1265</span>
+          <span>/10000</span>
+        </div>
+        <div id="s2">
+          <div class="box-1">
+            <h4>Calories🔥</h4>
+            <p>
+              <span>61</span><br />
+              kcal
+            </p>
+          </div>
+          <div class="box-1"></div>
+          <div class="box-2"></div>
+          <div class="box-3">
+            <div class="para-1">Link Your Device</div>
+            <div class="para-2">To your Account</div>
+            <button>Link</button>
+            <img src="./watch.jpg" alt="">
+          </div>
+        </div>
+        <div id="s3">
+          <div class="nav">
+            <i class="ri-home-4-line">Home</i>
+            <div>
+              <i class="ri-google-play-line"></i>
+            <i class="ri-account-circle-line"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
