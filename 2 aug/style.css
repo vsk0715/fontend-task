@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    display:flex;
+    flex-direction:row;
+    height: 500px;
+    width: 500px;
+    background-color: rgba(169, 171, 157, 0.47);
+    margin: 50px auto;
+    border: 2px solid;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    height: 62px;
+    width: 62px;
+    background-color: rgba(60, 97, 116, 0.724);
+    border: 1px solid black;
+    
+}
