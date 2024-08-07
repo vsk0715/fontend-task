@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 5px 5px 15px;
+}
+
+.nav-tools>ul {
+    display: flex;
+    gap: 20px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 255, 0.551);
+}
+
+.enquiry-btn>button {
+    background: rgb(255, 198, 2);
+    background: linear-gradient(131deg, rgba(255, 198, 2, 1) 0%, rgba(248, 132, 5, 1) 39%, rgba(232, 32, 18, 1) 100%);
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: none;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+img {
+    height: 100px;
+}
+
+li {
+    list-style: none;
+}
+
+select {
+    border: none;
+    font-size: 16px;
+    color: rgba(0, 0, 255, 0.551);
+}
+
+select:hover {
+    color: black;
+}
+
+li:hover {
+    color: black;
+}
+
+main {
+    background-color: rgba(3, 9, 8, 0.24);
+    min-height: 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background-color: rgba(23, 8, 234, 0.163);
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.input-container label {
+    margin-bottom: 10px;
+}
+
+.input-container input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.btn-container {
+    padding: 20px;
+}
+
+.btn-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 2, 2);
+    color: aliceblue;
+    font-weight: 500;
+}
